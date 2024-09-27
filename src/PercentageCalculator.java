@@ -40,8 +40,6 @@ public class PercentageCalculator {
         System.out.print("Marks of the subject 5 : ");
         double sub5 = sc.nextDouble();
 
-        System.out.print("Total Marks : ");
-        int out = sc.nextInt();
 
         // Code for Output
 
@@ -59,9 +57,9 @@ public class PercentageCalculator {
         System.out.println("  ");
 
         double total = sub1+sub2+sub3+sub4+sub5;
-        double percent = (total/out)*100;
+        double percent = (total/500)*100;
 
-        System.out.println("Total Marks Obained "+total+" From "+out+" M.M");
+        System.out.println("Total Marks Obained "+total+" From "+"From 500 M.M");
         System.out.println("  ");
         System.out.println("Total Percentage "+percent+"%");
         if(percent < 50){
